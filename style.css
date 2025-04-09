@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    height: 100vh;
+    font-family: "Poppins",sans-serif;
+    background-color: #F8FAFC;
+    
+  }
+
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }
+.every{
+    width: 800px;
+    margin: auto;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+   
+}
+.written{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 20px 50px ;
+    flex-wrap: wrap;
+}
+img{
+    height:150px ;
+    width: 150px;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #000000;
+}
+.slash{
+    text-align: center; 
+    color: #D9D9D9;
+}
+.thesis{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    color: #000000;
+}
+.date{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 15px auto auto 0;
+    color: #4D5562;
+
+}
+
+@media screen and (max-width:640px){
+img{
+    height: 100px;
+    width: 100px;
+}
+body{
+    max-width: 640px;
+}
+.every{
+    width: 90%;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    
+}
+.written{
+    margin-left: 0;
+}
+}
